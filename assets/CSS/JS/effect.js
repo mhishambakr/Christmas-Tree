@@ -1,0 +1,18 @@
+$(document).ready(function(){
+    $('#animate').click(function(){
+        $('.ball').fadeOut(),
+        $('.ball').fadeIn(),
+        $('.ball').fadeOut(),
+        $('.ball').fadeIn(),
+        $('.ball').fadeOut(),
+        $('.ball').fadeIn(),
+        $('.ball').fadeOut(),
+        $('.ball').fadeIn(),
+        $('.ball').fadeOut(),
+        $('.ball').fadeIn(),
+        $('.ball').fadeOut(),
+        $('.ball').fadeIn(),
+        $('.ball').fadeOut(),
+        $('.ball').fadeIn();
+    });
+});

@@ -1,0 +1,128 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+#main{
+    width: 900px;
+    height: 800px;
+    background-color: navy;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: flex-start;
+    align-items: center;
+}
+#stem{
+    background-color: rgb(150,75,0);
+    height: 70px;
+    width: 25px;
+}
+#leaves{
+    background-color: green;
+    height: 210px;
+    width: 340px;
+}
+#lower_r{
+    background-color: navy;
+    height: 70px;
+    width: 240px;
+    position: relative;
+    top: 210px;
+    left: 205px;
+    transform: skew(40deg);
+}
+#lower_l{
+    background-color: navy;
+    height: 70px;
+    width: 240px;
+    position: relative;
+    top: 280px;
+    right: 205px;
+    transform: skew(-40deg);
+}
+#middle_r{
+    background-color: navy;
+    height: 70px;
+    width: 240px;
+    position: relative;
+    top: 280px;
+    left: 180px;
+    transform: skew(40deg);
+}
+#middle_l{
+    background-color: navy;
+    height: 70px;
+    width: 240px;
+    position: relative;
+    top: 350px;
+    right: 180px;
+    transform: skew(-40deg);
+}
+#upper_r{
+    background-color: navy;
+    height: 70px;
+    width: 240px;
+    position: relative;
+    top: 350px;
+    left: 150px;
+    transform: skew(40deg);
+}
+#upper_l{
+    background-color: navy;
+    height: 70px;
+    width: 240px;
+    position: relative;
+    top: 420px;
+    right: 150px;
+    transform: skew(-40deg);
+}
+.ball{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+}
+#ball_1{
+    background-color: red;
+    position: relative;
+    bottom: 320px;
+    right: 5px;
+}
+#ball_2{
+    background-color: pink;
+    position: relative;
+    bottom: 250px;
+    left: 30px;
+}
+#ball_3{
+    background-color: navy;
+    position: relative;
+    bottom: 210px;
+    right: 10px;
+}
+#ball_4{
+    background-color: purple;
+    position: relative;
+    bottom: 150px;
+    right: 30px;
+}
+#ball_5{
+    background-color: orangered;
+    position: relative;
+    bottom: 120px;
+    left: 40px;
+}
+/* #div-button{
+    width: 200px;
+    height: 200px;
+    background-color: purple;
+    position: relative;
+    bottom: 100px;
+} */
+#animate{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    bottom: 300px;
+    left: 500px;
+}
